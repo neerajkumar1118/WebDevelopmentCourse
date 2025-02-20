@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Include Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 150px;
+            background-color: black;
+        }
+        .column {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 20px;
+            gap: 20px;
+        }
+        .left h3, .left h5 {
+            color: aliceblue;
+        }
+        .column div {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .column div img {
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <h3>Code in any language</h3>
+            <h5>VS code supports almost every programming language</h5>
+        </div>
+        <div class="column">
+            <div><img src="https://code.visualstudio.com/assets/home/language-js.png" alt="JavaScript">JavaScript</div>
+            <div><img src="https://code.visualstudio.com/assets/home/language-cs.png" alt="C#"> C#</div>
+            <div><img src="https://code.visualstudio.com/assets/home/language-java.png" alt="Java"> Java</div>
+        </div>
+        <div class="column">
+            <div><img src="https://code.visualstudio.com/assets/home/language-ts.png" alt="TypeScript"> TypeScript</div>
+            <div><img src="https://code.visualstudio.com/assets/home/language-cpp.png" alt="C++"> C++</div>
+            <div><img src="https://code.visualstudio.com/assets/home/language-json.png" alt="JSON"> JSON</div>
+        </div>
+        <div class="column">
+            <div><img src="https://code.visualstudio.com/assets/home/language-python.png" alt="Python"> Python</div>
+            <div><img src="https://code.visualstudio.com/assets/home/language-html.png" alt="HTML"> HTML</div>
+            <div><img src="https://code.visualstudio.com/assets/home/language-php.png" alt="PHP"> PHP</div>
+        </div>
+    </div>
+</body>
+</html>
